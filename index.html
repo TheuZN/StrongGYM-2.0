@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrongGYM - O Melhor para você</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div class="menu">
+                <div class="header-logo">
+                    <a href="#hero-section">
+                        <img src="assets/img/logo.svg" alt="">
+                        <span>Strong<span class="color">GYM</span></span>
+                    </a>
+                </div>
+
+                <div class="header-menu">
+                    <button onclick="menuShow()"><img class="menu-mobile" src="assets/img/menu.svg" alt=""></button>
+                </div>
+
+                <div class="header-nav">
+                    <ul>
+                        <li class="nav-item"><a href="#hero-section" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="#training" class="nav-link">Modalidades</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#rating" class="nav-link">Avaliações</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                    </ul>    
+                </div>
+                
+                <div class="header-btn" >
+                    <a href=""><button class="button-header">
+                        <img class="ico-header" src="assets/img/ico-whatsapp-primary.svg" alt="">
+                        Matricule-se Já
+                    </button></a>
+                </div>
+            </div>
+
+            <div class="mobile-nav">
+                <ul>
+                    <li class="nav-item"><a onclick="closeMenu()" href="#hero-section" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a onclick="closeMenu()" href="#training" class="nav-link">Modalidades</a></li>
+                    <li class="nav-item"><a onclick="closeMenu()" href="#about" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item"><a onclick="closeMenu()" href="#rating" class="nav-link">Avaliações</a></li>
+                    <li class="nav-item"><a onclick="closeMenu()" href="#contact" class="nav-link">Contatos</a></li>
+                </ul>
+                <a href=""><button class="button-all">
+                    <img class="ico" src="assets/img/ico-whatsapp.svg" alt="">
+                    Matricule-se Já
+                </button></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="hero-section">
+        <div class="wrapper">
+
+            <div class="col-a">
+                <div class="content">
+                    <h4>Bem-vindo à StrongGym <img class="ico" src="assets/img/ico-gym.svg" alt=""></h4>
+                    <h1>Transforme seu corpo, <br> fortaleça sua mente.</h1>
+                    <p>Aqui seus limites são desafiados e a sua força é lapidada. Nosso compromisso é fornecer um ambiente inspirador e acolhedor, onde você pode alcançar seus objetivos de condicionamento físico de maneira eficaz e divertida. Contamos com uma equipe de instrutores altamente qualificados e equipamentos de última geração. Junte-se à StrongGym e torne-se imparável!</p>
+                    
+                    <a href=""><button class="button-all">
+                        <img class="ico" src="assets/img/ico-whatsapp.svg" alt="">
+                        Matricule-se Agora
+                    </button></a>
+                </div>
+            </div>
+
+            <div class="col-b">
+                <div class="banner">
+                    <img src="assets/img/banner1.png" alt="">
+                </div>
+            </div>
+            
+
+            <div class="stats">
+                <div class="stat">
+                    <h3>+1000</h3>
+                    <p>Alunos atendidos</p>
+                </div>
+
+                <div class="stat">
+                    <h3>+10</h3>
+                    <p>Especialista disponíveis</p>
+                </div>
+
+                <div class="stat">
+                    <h3>+15</h3>
+                    <p>Anos no mercado</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section id="training">
+        <div class="wrapper">
+            <div class="text-training">
+                <h3 class="text-title">Modalidades</h3>
+                <p class="text-p">Diversas modalidades para você decidir qual é a melhor para o seu perfil.</p>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-musculacao.svg" alt="">
+                    <h4>Musculação</h4>
+                    <p>A musculação oferece benefícios como o aumento da força muscular, melhora da composição corporal, fortalecimento dos ossos e articulações, melhora da saúde cardiovascular. É indicada para pessoas de diferentes idades, desde que praticada com orientação adequada.</p>
+                </div>
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-dance.svg" alt="">
+                    <h4>Dança</h4>
+                    <p>A dança traz benefícios como melhora da aptidão física, equilíbrio e postura, estímulo cognitivo e bem-estar emocional. É indicada para pessoas de todas as idades, promovendo exercício divertido e expressão artística.</p>
+                </div>
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-kimono.svg" alt="">
+                    <h4>Jiu-Jitsu</h4>
+                    <p>O Jiu-Jitsu traz benefícios como desenvolvimento da força, condicionamento físico, habilidades de defesa pessoal, disciplina, concentração, trabalho em equipe e respeito mútuo. É indicado para pessoas de todas as idades, promovendo o condicionamento físico, a autodefesa e o crescimento pessoal.</p>
+                </div>
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-muaythai.svg" alt="">
+                    <h4>Muay Thai</h4>
+                    <p>O Muay Thai traz benefícios como melhora do condicionamento físico, fortalecimento muscular, aprendizado de autodefesa, coordenação motora e alívio do estresse. É indicado para pessoas de diferentes idades em busca de condicionamento físico, autodefesa e bem-estar geral.</p>
+                </div>
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-muaythai.svg" alt="">
+                    <h4>Boxe</h4>
+                    <p>O boxe oferece benefícios como melhora do condicionamento cardiovascular, fortalecimento muscular, aumento da coordenação motora, desenvolvimento da disciplina e alívio do estresse. É indicado para pessoas de diferentes idades e níveis de condicionamento físico, proporcionando um treinamento completo e desafiador.</p>
+                </div>
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-yoga.svg" alt="">
+                    <h4>Yoga</h4>
+                    <p>O yoga oferece benefícios como aumento da flexibilidade, fortalecimento muscular, redução do estresse, melhora da postura, equilíbrio emocional e melhora da qualidade do sono. É indicado para pessoas de diferentes idades e níveis de condicionamento físico, promovendo bem-estar físico e mental.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="wrapper">
+
+                <div class="col-a">
+                    <div class="text-about">
+                        <h3 class="text-title">Sobre Nós</h3>
+                        <p class="text-p">Conheça nossa história.</p>
+                    </div>
+                </div>
+
+                <div class="col-b">
+                    <div class="info-about">
+                        <h4>StrongGYM</h4>
+                        <p>
+                            Somos uma academia de bairro que orgulhosamente atua há 15 anos no mercado. Nosso compromisso com a saúde e o bem-estar de nossos clientes nos tornou uma referência na comunidade. Oferecemos uma variedade de programas de condicionamento físico, desde aulas de grupo energéticas até treinamento pessoal personalizado. Nossas instalações modernas e nossa equipe experiente estão prontas para ajudar os membros de todas as idades e níveis de condicionamento a alcançar seus objetivos de fitness. Junte-se a nós na Academia Fitness Center e faça parte de uma comunidade que valoriza seu progresso e sucesso.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-c">
+                    <img class="banner-img" src="assets/img/banner2.png" alt="">
+                </div>
+
+                <div class="col-d">
+                    <h3 class="text-title">Unidades</h3>
+                    <p class="text-p">Encontre a unidade mais próxima de você.</p>
+                </div>
+
+                <div class="col-e">
+                    <h5>Unidade Vila Itaberaba</h5>
+                    <p>
+                        Local: Rua do Outono,408 - Vila Itaberaba / São Paulo - SP / 02847 - 060
+                    </p>
+                    <p>
+                        Vagas: Disponibilizamos vagas aos usuários durante o período de treino.
+                    </p>
+                    <p>
+                        Armários: Temos armários rotativos para todos os clientes.
+                    </p>
+                    <p>
+                        Suplementos: Loja de suplementos dentro da nossa academia com os melhores valores do mercado.
+                    </p>
+                </div>
+
+                <div class="col-f">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.9985141995885!2d-46.695210470753516!3d-23.46067886880545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef98c2087d283%3A0x3ecb75369ab17496!2sR.%20do%20Outono%2C%20408%20-%20Vila%20Itaberaba%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002847-060!5e0!3m2!1spt-BR!2sbr!4v1646144585854!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="col-g">
+                    <h5>Unidade Caieiras</h5>                
+                    <p>
+                        Local: Avenida Paulicéia, 705 - Laranjeiras / Caieiras - SP / 07744 - 025
+                    </p>
+                    <p>
+                        Vagas: Disponibilizamos vagas aos usuários durante o período de treino.
+                    </p>
+                    <p>
+                        Armários: Temos armários rotativos para todos os clientes.
+                    </p>
+                    <p>
+                        Suplementos: Loja de suplementos dentro da nossa academia com os melhores valores do mercado.
+                    </p>
+                </div>
+
+                <div class="col-h">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3661.900304920636!2d-46.7155846!3d-23.3918236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefb2eeedc2dbd%3A0x921abcd49cf49221!2sAv.%20Paulic%C3%A9ia%2C%20857%20-%20Parque%20Industrial%20Araucarea%2C%20Caieiras%20-%20SP%2C%2007744-025!5e0!3m2!1sen!2sbr!4v1688594221703!5m2!1sen!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+        </div>
+    </section>
+
+    <section id="rating">
+        <div class="wrapper">
+            <div class="text-rating">
+                <h3 class="text-title">Avaliações</h3>
+                <p class="text-p">Veja as avaliações dos nossos clientes.</p>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-aspas.svg" alt="">
+                    <h4>Maria Marta</h4>
+                    <p>Desde o primeiro dia, fui recebido com um sorriso caloroso e uma equipe atenciosa. Os instrutores são qualificados e sempre prontos para ajudar. A variedade de aulas é impressionante, e encontrei o treino perfeito para mim. Me sinto motivado e vejo resultados visíveis. Recomendo a todos!</p>
+                </div>
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-aspas.svg" alt="">
+                    <h4>Marcos Bruno</h4>
+                    <p>O ambiente é acolhedor e amigável, o que me fez sentir parte de uma comunidade desde o início. Os equipamentos são modernos e bem cuidados, o que torna meus treinos eficientes e seguros. Além disso, os instrutores são extremamente dedicados e sempre me incentivam a superar meus limites. Estou muito satisfeito com os resultados que estou obtendo!</p>
+                </div>
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-aspas.svg" alt="">
+                    <h4>Matheus Melo</h4>
+                    <p>A equipe é extremamente profissional e se preocupa genuinamente com o bem-estar dos alunos. A variedade de programas de treinamento é impressionante e sempre encontro algo que se encaixa no meu horário e nas minhas metas. Os resultados são surpreendentes, meu condicionamento físico melhorou significativamente desde que me juntei à academia.</p>
+                </div>
+                <div class="card">
+                    <img class="ico-card" src="assets/img/ico-aspas.svg" alt="">
+                    <h4>Daniela Mattos</h4>
+                    <p>O ambiente é limpo, bem iluminado e inspirador. Os instrutores são experientes e dedicados, sempre dispostos a oferecer orientações e apoio personalizados. Além disso, a variedade de aulas é incrível, desde aulas de dança divertidas até sessões intensas de treinamento funcional. Estou me sentindo mais saudável, forte e confiante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+            <div class="wrapper">
+                <div class="col-a">
+                    <div class="text-contact">
+                        <h3 class="text-title">Contato</h3>
+                        <p class="text-p">Oferecemos diversas opções para entrar em contato conosco e estamos prontos para responder de acordo com a sua preferência.</p>
+                    </div>
+                </div>
+
+                <div class="col-b"> 
+                    <div class="info-contact">
+                            <h4>Telefone:</h4>
+                            <p>(11) 5848 - 5555</p>
+
+                            <h4>Telefone:</h4>
+                            <p>(11) 5244 - 5287</p>
+
+                            <h4>WhatsApp:</h4>
+                            <p>(11) 98585 - 4847</p>
+
+                            <h4>E-Mail:</h4>
+                            <p>strong.gym@sac.com</p>
+                    </div>
+
+                    <a href=""><button class="button-all">
+                        <img class="ico" src="assets/img/ico-whatsapp.svg" alt="">
+                        Entre em contato agora
+                    </button></a>
+                </div>
+
+
+                <div class="col-c">
+                    <img class="banner-img" src="assets/img/banner3.png" alt="">
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <div class="col-a">
+                <div class="info-footer">
+                    <div class="data-footer">
+                        <h3 class="text-title"><span class="color">©2023 - StrongGym</span></h3>
+                        <p class="text-p">Todos os direitos reservados.</p>
+                        <p class="text-p">StrongGym LTDA - CNPJ: 00.111.000/0001-11 <br> Rua do Outono, 408 - Itaberaba  - <br> São Paulo - SP - CEP: 02847 - 060
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-b">
+                <div class="social-footer">
+                    <a href=""><img class="ico-footer" src="assets/img/ico-insta.svg" alt=""></a>
+                    <a href=""><img class="ico-footer" src="assets/img/ico-face.svg" alt=""></a>
+                    <a href=""><img class="ico-footer" src="assets/img/ico-linke.svg" alt=""></a>
+                    <a href=""><img class="ico-footer" src="assets/img/ico-youtube.svg" alt=""></a>
+                    <a href=""><img class="ico-footer" src="assets/img/ico-twitter.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://github.com/TheuZN"><span>Feito por <span class="color">Mateus Melo</span></span></a>
+
+
+    <script src="assets/index.js"></script>
+</body>
+</html>
