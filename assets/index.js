@@ -16,6 +16,3 @@ function closeMenu() {
         document.querySelector('.menu-mobile').src = "assets/img/menu.svg";
     }
 }
-
-
-
