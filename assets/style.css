@@ -105,8 +105,9 @@ section {
 }
 
 iframe {
-    max-width: 100%;
     border-radius: 2.2rem;
+    max-width: 100%;
+    margin-block: 2rem;
 }
 
 .text-title {
@@ -132,6 +133,16 @@ iframe {
 
 .header-btn {
     display: none;
+}
+
+.col-d h3 {
+    margin-top: 3rem;
+}
+
+h5 {
+    font-size: 2.8rem;
+    padding-bottom: 2.2rem;
+    color: var(--primary-color);
 }
 
 /*=== HEADER =================================*/
